@@ -1,0 +1,39 @@
+@use "_variables";
+
+#site-menu {
+    background: variables.$primary-color;
+}
+
+#site-menu .menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    li {
+        margin: 10px 0;
+    }
+
+    a {
+        color: variables.$secondary-color;
+        text-decoration: none;
+        padding: 6px;
+    }
+
+    a:hover,
+    a:focus,
+    li.active a {
+        background: variables.$fifth-color;
+        color: variables.$sixth-color;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #site-menu .menu {
+flex-direction:  row;
+    }
+
+    li {
+        margin: 0 10px;
+    }
+}

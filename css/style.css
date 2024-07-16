@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.row {
+  width: 100%;
+}
+
+#site-footer {
+  margin-top: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .row {
+    width: 1200px;
+  }
+}
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  color: #000000;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+h6 {
+  font-size: 1.6rem;
+}
+
+#site-menu,
+#site-footer {
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+#site-menu {
+  background: #282828;
+}
+
+#site-menu .menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#site-menu .menu li {
+  margin: 10px 0;
+}
+#site-menu .menu a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 6px;
+}
+#site-menu .menu a:hover,
+#site-menu .menu a:focus,
+#site-menu .menu li.active a {
+  background: #444444;
+  color: #FFD700;
+}
+
+@media screen and (min-width: 1200px) {
+  #site-menu .menu {
+    flex-direction: row;
+  }
+  li {
+    margin: 0 10px;
+  }
+}
+#site-footer {
+  background: #282828;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

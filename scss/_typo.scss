@@ -1,0 +1,53 @@
+@use "variables";
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: variables.$secondary-font;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: variables.$fourth-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: variables.$primary-font;
+    color: variables.$third-color;
+}
+
+h1 {
+    font-size: 3.6rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.8rem;
+}
+
+h6 {
+    font-size: 1.6rem;
+}
+
+#site-menu,
+#site-footer {
+    font-family: variables.$third-font;
+    color: variables.$secondary-color;
+    font-size: 1.8rem;
+}
