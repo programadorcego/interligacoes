@@ -36,4 +36,13 @@ flex-direction:  row;
     li {
         margin: 0 10px;
     }
+
+    #site-menu .accordion-btn {
+        display: none;
+    }
+
+    #site-menu .menuwrap {
+        visibility: visible;
+        height: auto;
+    }
 }

@@ -1,0 +1,11 @@
+.accordion {
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.accordion-btn.active + .accordion {
+    visibility: visible;
+    transition: height 0.3s ease, visibility 0s;
+}

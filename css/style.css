@@ -117,6 +117,13 @@ h6 {
   li {
     margin: 0 10px;
   }
+  #site-menu .accordion-btn {
+    display: none;
+  }
+  #site-menu .menuwrap {
+    visibility: visible;
+    height: auto;
+  }
 }
 #site-footer {
   background: #282828;
@@ -140,6 +147,18 @@ h6 {
   margin: 0;
   overflow: visible;
   clip: auto;
+}
+
+.accordion {
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.accordion-btn.active + .accordion {
+  visibility: visible;
+  transition: height 0.3s ease, visibility 0s;
 }
 
 /*# sourceMappingURL=style.css.map */
