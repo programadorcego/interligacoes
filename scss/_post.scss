@@ -1,4 +1,5 @@
 @use "variables";
+@use 'sass:color';
 
 .post-container {
   margin: 20px 0;
@@ -8,6 +9,10 @@
   display: grid;
   grid-template-columns: 100%;
   gap: 20px;
+}
+
+.post-grid .post-column {
+  background: color.adjust(variables.$primary-color, $lightness: 50%);
 }
 
 .post-heading a {

@@ -171,6 +171,10 @@ h6 {
   gap: 20px;
 }
 
+.post-grid .post-column {
+  background: #a8a8a8;
+}
+
 .post-heading a {
   text-decoration: none;
   color: #333333;
