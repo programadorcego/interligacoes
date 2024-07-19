@@ -1,0 +1,24 @@
+@use "_variables";
+
+// Botão Principal
+.btn-primary {
+    background-color: variables.$sixth-color;
+    color: variables.$secondary-color;
+    border: 2px solid variables.$fourth-color;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+// Botão Principal Hover
+.btn-primary-hover:hover {
+    background-color: variables.$fourth-color;
+    color: variables.$sixth-color;
+    border: 2px solid variables.$sixth-color;
+}

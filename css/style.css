@@ -125,6 +125,27 @@ h6 {
     height: auto;
   }
 }
+.btn-primary {
+  background-color: #FFD700;
+  color: #ffffff;
+  border: 2px solid #333333;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.btn-primary-hover:hover {
+  background-color: #333333;
+  color: #FFD700;
+  border: 2px solid #FFD700;
+}
+
 #site-footer {
   background: #282828;
 }
