@@ -1,0 +1,22 @@
+@use "variables";
+
+.post-container {
+  margin: 20px 0;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 20px;
+}
+
+.post-heading a {
+  text-decoration: none;
+  color: variables.$fourth-color;
+}
+
+@media screen and (min-width: 1200px) {
+.post-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+}
