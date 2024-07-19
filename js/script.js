@@ -1,7 +1,7 @@
 // Efeito Acordeão
 const accBtn = document.querySelectorAll(".accordion-btn").forEach(btn => {
     btn.addEventListener("click", () => {
-        const accContent = btn.nextSibling;
+        const accContent = btn.nextElementSibling;
 
         btn.classList.toggle("active");
 
