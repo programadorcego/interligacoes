@@ -207,7 +207,9 @@ h6 {
   }
 }
 .cover {
-  background: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   text-align: center;
   padding: 100px 0;
