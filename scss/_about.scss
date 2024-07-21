@@ -1,0 +1,20 @@
+.author-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+    .author-container {
+        flex-direction: row;
+    }
+
+    .author-photo {
+        width: 1 / 6 * 100%;
+    }
+
+    .author-text {
+        width: 5 / 6 * 100%;
+    }
+}

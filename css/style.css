@@ -206,6 +206,24 @@ h6 {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+.author-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .author-container {
+    flex-direction: row;
+  }
+  .author-photo {
+    width: 16.6666666667%;
+  }
+  .author-text {
+    width: 83.3333333333%;
+  }
+}
 .cover {
   background-color: rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
