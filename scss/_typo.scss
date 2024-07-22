@@ -48,6 +48,6 @@ h6 {
 #site-menu,
 #site-footer {
     font-family: variables.$third-font;
-    color: variables.$secondary-color;
+    color: variables.$secondary-color !important;
     font-size: 1.8rem;
 }

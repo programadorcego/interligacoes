@@ -81,7 +81,7 @@ h6 {
 #site-menu,
 #site-footer {
   font-family: "Montserrat";
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 1.8rem;
 }
 
